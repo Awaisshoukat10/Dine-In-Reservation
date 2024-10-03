@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  /* border: 1px solid red; */
+}
+.btn {
+  /* padding: 10px 15px; */
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: "League Spartan", sans-serif;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+}
+.dine-b {
+  color: white;
+  height: 40px;
+  width: 95px;
+  padding: 2rem 0 5rem 0;
+  margin-bottom: 25px;
+  margin-top: 45px;
+}
+header {
+  height: 70vh;
+  width: 100%;
+  background-image: url(/assests/booking/booking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header p {
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.primary-heading {
+  font-weight: 300;
+  font-size: 4rem;
+  color: white;
+}
+.header-des {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+/* TABLE */
+.booking {
+  position: relative;
+}
+form {
+  padding: 20px 40px;
+  background-color: white;
+  width: 340px;
+  height: 345px;
+  position: absolute;
+  right: 400px;
+  top: -245px;
+  z-index: 1;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.117);
+}
+#name {
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 300px;
+}
+input[type="email"] {
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 300px;
+}
+
+#date {
+  padding: 20px 2px 20px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 65px;
+  text-align: center;
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+/* input[type="time"] {
+  padding: 20px 40px;
+  border: none;
+  border-bottom: 1px solid gray;
+} */
+.btn-form {
+  padding: 15px 100px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.group-b {
+  position: absolute;
+  top: 95px;
+  right: 800px;
+}
+footer {
+  background-color: black;
+  padding: 50px;
+}
+
+footer h2 {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px 85px;
+  align-items: center;
+}
+footer li {
+  list-style: none;
+  color: white;
+  line-height: 1.5;
+}
+.dine-footer {
+  margin-left: 45px;
+  margin-top: 5px;
+}

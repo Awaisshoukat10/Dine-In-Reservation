@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link rel="stylesheet" href="/table.css" />
+    <link rel="stylesheet" href="/responsiv2.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <img src="/assests/booking/dine.png" alt="" class="dine-b" />
+        <div class="header-des">
+          <h1 class="primary-heading">Reservations</h1>
+          <p>
+            We can’t wait to host you. If you have any special <br />
+            requirements please feel free to call on the phone <br />number
+            below. We’ll be happy to accommodate you.
+          </p>
+          <button class="btn header-btn">Reserve place</button>
+        </div>
+      </div>
+    </header>
+    <section class="booking">
+      <form action="*">
+        <div>
+          <label for="name" name="name" id="input-name">
+            <input type="text" id="name" placeholder="Name" required />
+          </label>
+        </div>
+        <div>
+          <label for="Email" name="Email" id="input-email">
+            <input type="email" id="Email" placeholder="Email" required />
+          </label>
+        </div>
+        <div>
+          <label for="date" name="date"
+            >Pick a date
+            <input
+              type="number"
+              id="date"
+              placeholder="MM"
+              min="1"
+              max="12"
+              required
+            />
+            <input
+              type="number"
+              id="date"
+              placeholder="DD"
+              min="1"
+              max="31"
+              required
+            />
+            <input
+              type="number"
+              id="date"
+              placeholder="YYYY"
+              min="2024"
+              max="2026"
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label for="date" name="date"
+            >Pick a time
+            <input
+              type="number"
+              id="date"
+              placeholder="09"
+              min="1"
+              max="12"
+              required
+            />
+            <input
+              type="number"
+              id="date"
+              placeholder="00"
+              min="1"
+              max="60"
+              required
+            />
+            <select name="select" id="date">
+              <option value="1">AM</option>
+              <option value="1">PM</option>
+            </select>
+          </label>
+        </div>
+        <button class="btn-form">Make Reservations</button>
+      </form>
+      <img src="/assests/booking/Group 12.png" alt="" class="group-b" />
+      <img src="/assests/booking/Rectangle Copy 2.png" alt="" class="rec-b" />
+    </section>
+    <footer>
+      <div class="second-half">
+        <div class="grid">
+          <img
+            src="/assests/imgs/dine.png"
+            alt="dine logo"
+            class="dine-footer"
+          />
+          <ul class="item2">
+            <li>Marthwaite, Sedbergh</li>
+            <li>Cumbria</li>
+            <li>+00 44 123 4567</li>
+          </ul>
+          <ul class="item3">
+            <li>OPEN TIMES</li>
+            <li>MON - FRI: 09:00 AM - 10:00 PM</li>
+            <li>SAT - SUN: 09:00 AM - 11:30 PM</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
