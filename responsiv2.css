@@ -73,10 +73,8 @@
 }
 @media screen and (max-width: 376px) {
   form {
-    width: 340px;
     height: 345px;
     padding: 10px;
-    right: -6px;
   }
   footer {
     padding: 45px;
