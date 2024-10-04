@@ -141,3 +141,12 @@
     margin-left: 6px;
   }
 }
+@media screen and (max-width: 364px) {
+  form {
+    width: 324px;
+    height: 345px;
+    padding: 10px;
+    right: -10px;
+    border-radius: 5px;
+  }
+}
